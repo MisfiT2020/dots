@@ -91,7 +91,7 @@ EOF
         done
 
         echo -e "nvidia-dkms\nnvidia-utils" >>install_pkg.lst
-        sed -i "s/^hyprland-git/hyprland-nvidia-git/g" install_pkg.lst
+        sed -i "s/^hyprland-git/hyprland-git/g" install_pkg.lst
 
     else
         echo "nvidia card not detected, skipping nvidia drivers..."
